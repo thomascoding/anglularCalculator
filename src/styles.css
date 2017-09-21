@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-size: 16px;
+}
+
+.output {
+    border: 1px solid black;
+    height: 1.2em;
+    margin: 0 auto;
+    text-align: right;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.keyboard {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.keyboard table, .keyboard table td {
+    margin: 0;
+    padding: 0;
+    border-spacing: 7px;
+}
+.keyboard button {
+    font-size: 20px;
+    width: 50px;
+    height: 45px;
+}

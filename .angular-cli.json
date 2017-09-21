@@ -55,6 +55,13 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {},
+    "serve": {
+      "port": 4200,
+      "host": "192.168.33.10",
+      "live-reload-port": 49153,
+      "liveReload": true,
+      "poll": 2000
+    }
   }
 }
